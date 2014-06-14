@@ -29,10 +29,13 @@ module.exports = function(grunt) {
         browserify: {
             build: {
                 files: {
-                    'build/js/main.js': 'src/js/main.js'
+                    'build/js/main.js': 'src/js/main.js',
+                    'build/js/main2.js': 'src/js/main2.js',
+                    'build/js/main3.js': 'src/js/main3.js',
+                    'build/js/main4.js': 'src/js/main4.js',
                 },
                 options: {
-                    debug: true,
+                    bundleOptions: { debug: true },
                     noParse: ['jquery']
                 }
             }

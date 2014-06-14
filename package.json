@@ -1,22 +1,26 @@
 {
-  "name": "biokine",
-  "version": "0.0.1",
-  "description": "Messing about with life",
-  "scripts": {
+    "name": "biokine",
+    "version": "0.0.1",
+    "description": "Messing about with life",
+    "scripts": {
     "test": "grunt"
-  },
-  "author": "Dan Delany",
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-contrib-less": "~0.11.1",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt-jekyll": "~0.4.2",
-    "grunt-concurrent": "~0.5.0",
-    "grunt-contrib-connect": "~0.7.1",
-    "browserify": "~4.1.7",
-    "grunt-browserify": "~2.1.0",
-    "jquery": "~2.1.1",
-    "underscore": "~1.6.0",
-    "d3": "~3.4.8"
-  }
+    },
+    "author": "Dan Delany",
+    "dependencies": {
+        "jquery": "~2.1.1",
+        "underscore": "~1.6.0",
+        "d3": "~3.4.8",
+        "physicsjs": "git://github.com/wellcaffeinated/PhysicsJS#master",
+        "matterjs": "git://github.com/liabru/matter-js.git#master"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-less": "~0.11.1",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-jekyll": "~0.4.2",
+        "grunt-concurrent": "~0.5.0",
+        "grunt-contrib-connect": "~0.7.1",
+        "browserify": "~4.1.7",
+        "grunt-browserify": "~2.1.0"
+    }
 }
