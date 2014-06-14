@@ -2,7 +2,7 @@ _ = require('underscore');
 $ = require('jquery');
 d3 = require('d3');
 Physics = require('./physicsjs-full.js');
-Physics = require('./charge-attraction.js')(Physics);
+Physics = require('./behaviors/charge-attraction.js')(Physics);
 
 $(function() {
     Physics(function (world) {

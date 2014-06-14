@@ -7,6 +7,6 @@ categories: jekyll update
 
 Universe 3
 
-<div id="universe" style="width: 900px;"></div>
+<div id="universe" style="background-color: #ccddff"></div>
 
 <script type="text/javascript" src="/js/main4.js"></script>
